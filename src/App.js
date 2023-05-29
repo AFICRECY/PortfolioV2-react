@@ -1,80 +1,38 @@
-// import React, { useState } from 'react';
-import Home from './pages/Home';
-// import About from './pages/About';
-// import Portfolio from './pages/Portfolio';
-// import Contact from './pages/Contact';
-// import Resume from './pages/Resume';
-// import Footer from './pages/Footer';
+import React, {useState} from 'react';
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 function App() {
+
   const [currentPage, setCurrentPage] = useState('Home');
-
-
-  const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
-//     if (currentPage === 'About') {
-//       return <About />;
-//     }
-//     if (currentPage === 'Portfolio') {
-//       return <Portfolio />;
-//     }
-//     if (currentPage === 'Resume') {
-//       return <Resume />;
-//       return <Contact />;
-  };
-
-  
-
   const handlePageChange = (page) => setCurrentPage(page);
 
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+      return <Contact />;
+  };
+
+  }
   return (
-    <div>
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      
-      {renderPage()}
-      <Footer/>
+    <div className="App">
+       
+       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+       {renderPage()}
+
     </div>
   );
-  }
+}
+
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // import './App.css';
-// // // import BucketList from './components/BucketList';
-
-// // // function App() {
-// // //   return (
-// // //     <div className="bucket-app">
-// // //       {/* <BucketList /> */}
-// // //     </div>
-// // //   );
-// // // }
-
-// // export default App;
