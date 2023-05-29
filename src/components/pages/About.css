@@ -1,0 +1,60 @@
+.background {
+    background-color: #fdedb3;
+}
+
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  .myCustomFontSize {
+    font-size: 60px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .aboutme {
+    border-width: 4px;
+  }
+
+  .circle {
+    border-radius: 50%;
+    width: 250px;
+
+}
+
+img:hover {
+    box-shadow: 10px 5px 5px rgb(246, 241, 147);
+}
+
+.image-divider {
+    width: 100%;
+  }
+
+/* h1 .align {
+  margin-right: 350px;
+} */
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
