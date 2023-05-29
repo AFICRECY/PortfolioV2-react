@@ -1,3 +1,8 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Libre Baskerville', serif; 
+}
+
 .background {
     background-color: #fdedb3;
 }
@@ -39,7 +44,7 @@
   .circle {
     border-radius: 50%;
     width: 250px;
-
+    margin-right: 0.56cm;
 }
 
 img:hover {

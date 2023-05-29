@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 https://jarv.is/notes/css-waving-hand-emoji/
+https://www.flaticon.com/
+https://blog.avada.io/css/dividers#freecodecamp-style-dividing-line-jefferey-thomas
