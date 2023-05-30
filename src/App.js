@@ -19,9 +19,11 @@ function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
     if (currentPage === 'Resume') {
       return <Resume />;
-      return <Contact />;
   };
 
   }
