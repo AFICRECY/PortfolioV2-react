@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import personalPhoto from "../../images/personal-photo.png";
 import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
-
+import Footer from "../Footer";
 function About() {
   return (
     <div className="background">
@@ -72,6 +72,7 @@ function About() {
       <div>
 
       </div>
+      <Footer/>
     </div>
   );
 }

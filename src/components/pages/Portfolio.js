@@ -7,6 +7,7 @@ import {
   MDBCardText,
   MDBCardImage,
 } from 'mdb-react-ui-kit';
+import Footer from '../Footer';
 import './Portfolio.css';
 function Portfolio() {
     return (
@@ -78,7 +79,7 @@ function Portfolio() {
         
         
         </MDBRow>
-    
+        <Footer/>
         </div>
         )
 }

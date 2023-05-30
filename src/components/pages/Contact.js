@@ -11,25 +11,27 @@ import mediumLogo from "../../images/medium.png";
 function Contact() {
   return (
     <div>
-      <h1>Contact</h1>
       <div>
-        <MDBContainer>
+        <MDBContainer class="contact">
           <MDBRow>
-            <MDBCol size="9">
-              <div>
+            <MDBCol size="7">
+            <h1 class="textcenter me-2">Contact Me:</h1>
+              <div class="contactForm">
                 <h3>Name:</h3>
                 <MDBInput label="Name" id="typeText" type="text" />
                 <h3>Email:</h3>
                 <MDBInput label="Email" id="typeEmail" type="email" />
                 <h3>Message:</h3>
                 <MDBTextArea label="Message" id="textAreaExample" rows={4} />
-                <MDBBtn type="submit">Submit form</MDBBtn>
+                <MDBBtn class="contactBtn"type="submit">Submit form</MDBBtn>
               </div>
             </MDBCol>
-            <MDBCol size="3">
-              <div>
+            <MDBCol size="1"></MDBCol>
+            <MDBCol size="4">
+              
+                <MDBCol size="8">
                 <h2>Reach Out!</h2>
-                <p>
+                <p >
                   {" "}
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
@@ -46,13 +48,8 @@ function Contact() {
                       className="stacked-icon"
                     />
                   </a>
-                  <a
-                    href="https://github.com/AFICRECY"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <img src={githubLogo} alt="logo" className="stacked-icon" />
-                  </a>
+                  <div class="icon"></div>
+                  
                   <a
                     href="https://medium.com/@aficrecy"
                     target="_blank"
@@ -60,8 +57,17 @@ function Contact() {
                   >
                     <img src={mediumLogo} alt="logo" className="stacked-icon" />
                   </a>
+                  <div class="icon"></div>
+                  <a
+                    href="https://github.com/AFICRECY"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubLogo} alt="logo" className="stacked-icon" />
+                  </a>
                 </div>
-              </div>
+                </MDBCol>
+
             </MDBCol>
           </MDBRow>
         </MDBContainer>
