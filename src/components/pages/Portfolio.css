@@ -1,0 +1,17 @@
+.Card{
+    padding:120px;
+    padding-top: 0px;
+    padding-bottom:30px ;
+    
+}
+
+.CardBody{
+    box-shadow: 10px 5px 5px gray;
+}
+.resumeSkills{
+    padding:120px;
+}
+
+.skillsRow{
+    padding-bottom:5px ;
+}

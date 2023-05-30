@@ -34,7 +34,7 @@ function Contact() {
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
                 </p>
-                <div className="image-icons-container">
+                <div className="image-icons-container text-center">
                   <a
                     href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/"
                     target="_blank"
