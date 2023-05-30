@@ -7,6 +7,9 @@
     background-color: #fdedb3;
 }
 
+.backgroundcard {
+  background-color: #f8efc7;
+}
 
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
@@ -32,7 +35,7 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Comfortaa', cursive;
     font-family: 'Libre Baskerville', serif;
   }
@@ -44,7 +47,6 @@
   .circle {
     border-radius: 50%;
     width: 250px;
-    margin-right: 0.56cm;
 }
 
 img:hover {

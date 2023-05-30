@@ -3,20 +3,24 @@ import "./About.css";
 import personalPhoto from "../../images/personal-photo.png";
 import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import Footer from "../Footer";
+
+
 function About() {
   return (
     <div className="background">
       <div>
         <MDBContainer>
           <MDBRow>
-            <MDBCol size="3" className="aboutme">
+            <MDBCol size="3" className="aboutme border border-3 rounded pt-6 pr-8 border-warning backgroundcard">
               <h1>
                 Hi there! <span className="wave myCustomFontSize"> 👋🏾</span>
               </h1>
               <br />
               <img className="circle" src={personalPhoto} alt="Afi"></img>
-              <p className="text-center" style={{ fontSize: "30px" }}> My name is</p>
-              <p className="text-center" style={{ fontSize: "30px" }}> Afi Nkhume-Crecy</p>
+              <p className="text-center pt-5" style={{ fontSize: "30px" }}> My name is</p>
+              <p className="text-center" style={{ fontSize: "35px" }}> Afi Nkhume-Crecy</p>
+              <p className="text-center" style={{ fontSize: "22px" }}> (Pronouns: She/her)</p>
+              <p className="text-center" style={{ fontSize: "30px" }}> Based out of SF Bay Area</p>
             </MDBCol>
             <MDBCol size="9">
               <h1 className="text-center" style={{ fontSize: "50px" }}>
