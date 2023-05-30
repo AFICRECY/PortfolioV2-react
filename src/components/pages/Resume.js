@@ -2,14 +2,27 @@ import React from 'react';
 import { MDBCol,MDBCardImage, MDBContainer, MDBRow, MDBBtn } from "mdb-react-ui-kit";
 import Footer from "../Footer";
 import "./Portfolio.css";
+import resumeImg from "../../images/Tech-Resume-image.png";
+
+
 function Resume() {
     return (
-      <div>
+      <div className='background'>
       <MDBContainer>
   <MDBRow>
     <MDBCol size='6'>
       <h1 className="text-center">Resume</h1>
-      <MDBCardImage className='CardBody' src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+      <a
+                    href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src={resumeImg}
+                      alt="resume"
+                      className='text-center ml-4'
+                    />
+                  </a>
     </MDBCol>
     <MDBCol size='6'>
       <h1 className="text-center">Skills</h1>

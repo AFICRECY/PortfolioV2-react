@@ -29,7 +29,7 @@ function Contact() {
                 <h3>Message:</h3>
                 <MDBTextArea label="Message" id="textAreaExample" rows={4} />
                 </div>
-                <MDBBtn className="contactBtn"type="submit">Submit form</MDBBtn>
+                <MDBBtn className="contactBtn"type="submit">SEND</MDBBtn>
               </div>
             </MDBCol>
             <MDBCol size="1"></MDBCol>
