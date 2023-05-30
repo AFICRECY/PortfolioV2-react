@@ -15,7 +15,7 @@ function Contact() {
         <MDBContainer class="contact">
           <MDBRow>
             <MDBCol size="7">
-            <h1 class="textcenter me-2">Contact Me:</h1>
+            <h1 class="textcenter me-2" style={{ fontSize: "55px" }}>Contact Me:</h1>
               <div class="contactForm">
                 <h3>Name:</h3>
                 <MDBInput label="Name" id="typeText" type="text" />
