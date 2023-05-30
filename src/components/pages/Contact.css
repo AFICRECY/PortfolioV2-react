@@ -19,3 +19,7 @@ text-align: center;
 .contactBtn{
   float: right;
 }
+
+.backgroundcard {
+  background-color: rgb(255, 226, 96);
+}

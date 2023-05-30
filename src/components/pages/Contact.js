@@ -10,26 +10,32 @@ import mediumLogo from "../../images/medium.png";
 
 function Contact() {
   return (
-    <div>
+    <div style={{ backgroundColor: '#fdedb3'}}>
       <div>
-        <MDBContainer class="contact">
+        <MDBContainer className="contact">
           <MDBRow>
-            <MDBCol size="7">
-            <h1 class="textcenter me-2" style={{ fontSize: "55px" }}>Contact Me:</h1>
-              <div class="contactForm">
+            <MDBCol size="7" className="pt-5 pb-3 backgroundcard">
+            <h1 className="textcenter me-2" style={{ fontSize: "55px" }}>Contact Me:</h1>
+              <div className="contactForm">
+                <div className="pb-4">
                 <h3>Name:</h3>
                 <MDBInput label="Name" id="typeText" type="text" />
+                </div>
+                <div className="pb-4">
                 <h3>Email:</h3>
                 <MDBInput label="Email" id="typeEmail" type="email" />
+                </div>
+                <div className="pb-4">
                 <h3>Message:</h3>
                 <MDBTextArea label="Message" id="textAreaExample" rows={4} />
-                <MDBBtn class="contactBtn"type="submit">Submit form</MDBBtn>
+                </div>
+                <MDBBtn className="contactBtn"type="submit">Submit form</MDBBtn>
               </div>
             </MDBCol>
             <MDBCol size="1"></MDBCol>
-            <MDBCol size="4">
+            <MDBCol size="4" className="pt-5">
               
-                <MDBCol size="8">
+                <MDBCol size="8" className="border border-3 rounded pt-3 pb-3 border-warning">
                 <h2>Reach Out!</h2>
                 <p >
                   {" "}
