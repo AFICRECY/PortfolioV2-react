@@ -7,7 +7,22 @@
     background-color: #fdedb3;
 }
 
+.resume_heading{
+    margin-top: 20px;
+    margin-left:-110px ;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
-img{
-    width:20px;
+div:nth-child(even){
+text-align: center;
+} 
+
+.skills{
+    margin-top: 150px;
+    margin-bottom: 40px;
 }

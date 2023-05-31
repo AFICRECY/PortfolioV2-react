@@ -4,9 +4,7 @@ import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import { MDBInput } from "mdb-react-ui-kit";
 import { MDBTextArea } from "mdb-react-ui-kit";
 import { MDBBtn } from "mdb-react-ui-kit";
-import linkedInLogo from "../../images/linkedin.png";
-import githubLogo from "../../images/github.png";
-import mediumLogo from "../../images/medium.png";
+
 
 function Contact() {
   
@@ -29,13 +27,16 @@ function Contact() {
         alert("You need to enter a message.");
       }
     }
-  };
+  }
+  const handleSubmit = (e) => {
+    alert('Successfully submitted')
+  }
   return (
     <div style={{ backgroundColor: "#fdedb3" }}>
       <div>
         <MDBContainer className="contact">
           <MDBRow>
-            <MDBCol size="7" className="pt-5 pb-3 backgroundcard">
+            <MDBCol size="8" className="pt-5 pb-3 backgroundcard">
               <h1 className="textcenter me-2" style={{ fontSize: "55px" }}>
                 Contact Me:
               </h1>
@@ -70,16 +71,16 @@ function Contact() {
                     onBlur={handleBlur}
                   />
                 </div>
-                <MDBBtn className="contactBtn" type="submit">
+                <MDBBtn  onClick={handleSubmit} className="contactBtn" type="submit">
                   SEND
                 </MDBBtn>
               </div>
             </MDBCol>
             <MDBCol size="1"></MDBCol>
-            <MDBCol size="4" className="pt-5">
+            <MDBCol size="3" className="pt-5">
               <MDBCol
-                size="8"
-                className="border border-3 rounded pt-3 pb-3 border-warning"
+                size="10"
+                className="border border-3 rounded pt-3 pb-3 border-warning reachOut"
               >
                 <h2>Reach Out!</h2>
                 <p>
@@ -87,7 +88,7 @@ function Contact() {
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
                 </p>
-                <div className="image-icons-container text-center">
+                {/* <div className="image-icons-container text-center">
                   <a
                     href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/"
                     target="_blank"
@@ -116,7 +117,7 @@ function Contact() {
                   >
                     <img src={githubLogo} alt="logo" className="stacked-icon" />
                   </a>
-                </div>
+                </div> */}
               </MDBCol>
             </MDBCol>
           </MDBRow>
@@ -125,5 +126,6 @@ function Contact() {
     </div>
   );
 }
+
 
 export default Contact;

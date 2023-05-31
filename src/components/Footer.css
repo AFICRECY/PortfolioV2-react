@@ -1,7 +1,14 @@
 .footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 8%;
     width: 100%;
-    text-align: center;
+    background-color: rgb(213, 145, 8);
+    bottom: 0;
  }
+
+ .footer_text{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 18px;
+    font-family: 'Libre Baskerville', serif; 
+}

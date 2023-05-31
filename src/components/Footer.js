@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
     return (
         <div className='footer'>
-        <p>Dedicated to making impactful solutions!</p>
+        <p className='footer_text'>Dedicated to making impactful solutions!</p>
     
         </div>
     )
