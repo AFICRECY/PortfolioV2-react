@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/PortfolioV2-react/static/css/main.1064864f.css",
-    "main.js": "/PortfolioV2-react/static/js/main.872e0132.js",
+    "main.css": "/PortfolioV2-react/static/css/main.5609f522.css",
+    "main.js": "/PortfolioV2-react/static/js/main.ec7f8a10.js",
     "static/media/Cinexplorer.png": "/PortfolioV2-react/static/media/Cinexplorer.4d538c1b988b56c2c919.png",
     "static/media/personal-photo.png": "/PortfolioV2-react/static/media/personal-photo.3e2a91ee85548c711483.png",
+    "static/media/tech-resume.pdf": "/PortfolioV2-react/static/media/tech-resume.d2ca2c75c14c1647ceb0.pdf",
     "static/media/Tech-Resume-image.png": "/PortfolioV2-react/static/media/Tech-Resume-image.a9313e9ef7336d41ea11.png",
     "static/media/Hops-Haven-Logo.png": "/PortfolioV2-react/static/media/Hops-Haven-Logo.6a52f509745f1219e1f3.png",
     "static/media/TheBloggersDen-image.png": "/PortfolioV2-react/static/media/TheBloggersDen-image.cbe7184541e7fafc8286.png",
     "static/media/WorkDayPlanner-image.png": "/PortfolioV2-react/static/media/WorkDayPlanner-image.a889262ffd8801de74b8.png",
     "static/media/WeatherPro-image.png": "/PortfolioV2-react/static/media/WeatherPro-image.4c87d14ef2f2fd922b64.png",
     "static/media/FeatherPad-image.png": "/PortfolioV2-react/static/media/FeatherPad-image.654a17a96cf11fca8cbf.png",
+    "static/media/PortfolioLogo.png": "/PortfolioV2-react/static/media/PortfolioLogo.479d5c28ae9c53fc5ff4.png",
     "static/media/github.png": "/PortfolioV2-react/static/media/github.a5527b5c02e754fc4a6d.png",
     "static/media/medium.png": "/PortfolioV2-react/static/media/medium.120bb494ea130617ad56.png",
     "index.html": "/PortfolioV2-react/index.html",
-    "main.1064864f.css.map": "/PortfolioV2-react/static/css/main.1064864f.css.map",
-    "main.872e0132.js.map": "/PortfolioV2-react/static/js/main.872e0132.js.map"
+    "main.5609f522.css.map": "/PortfolioV2-react/static/css/main.5609f522.css.map",
+    "main.ec7f8a10.js.map": "/PortfolioV2-react/static/js/main.ec7f8a10.js.map"
   },
   "entrypoints": [
-    "static/css/main.1064864f.css",
-    "static/js/main.872e0132.js"
+    "static/css/main.5609f522.css",
+    "static/js/main.ec7f8a10.js"
   ]
 }
