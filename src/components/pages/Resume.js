@@ -14,6 +14,7 @@ function Resume() {
   <MDBRow>
     <MDBCol size='6'>
       <h1 className="text-center resume_heading">Resume</h1>
+      <p>(Click the Resume to Download)</p>
       <a
                     href={resumePdf}
                     target="_blank"
