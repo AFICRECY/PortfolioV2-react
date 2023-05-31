@@ -165,6 +165,15 @@ function Portfolio() {
           </MDBCardBody>
         </MDBCol>
       </MDBRow>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Footer />
     </div>
   );
