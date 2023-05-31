@@ -14,28 +14,23 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img
-                      src={linkedInLogo}
-                      alt="logo"
-                      className="stacked-icon"
+                    <img src={linkedInLogo} alt="logo" className="icon"
                     />
                   </a>
-                  <div class="icon"></div>
 
                   <a
                     href="https://medium.com/@aficrecy"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={mediumLogo} alt="logo" className="stacked-icon" />
+                    <img src={mediumLogo} alt="logo" className="icon" />
                   </a>
-                  <div class="icon"></div>
                   <a
                     href="https://github.com/AFICRECY"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={githubLogo} alt="logo" className="stacked-icon" />
+                    <img src={githubLogo} alt="logo" className="icon" />
                   </a>
                 </div>      
                   
