@@ -55,8 +55,15 @@ To increase your chances of landing an interview for a software engineering or j
 To install this project, a knowledge of HTML, CSS, JavaScript, Node.js, Express.js, and ReactJS framework, Git, and Github Pages  were required.  I had to first install Node.js to my computer and then install the Express and NPM packages. I installed the following dependencies with my npm install (express, manifest.json, react, google fonts, mdb react for styling, and nodemon). In order to create this application, a foundational knowledge of HTML, CSS, and JavaScript were required in order to utilize all programming languages on the same code file. This Portfolio is a representation of all of my works that I am confident showcasing to both employers and fellow developers. HTML was used in the form of JSX within a .js file. Additionally, each navigation tab at the top of my portfolio webpage is organized into separate component files which hold the code for each tab. I utilized the MDB React styling framework to organize both my grid layout, forms and input sections, and also within my portfolio tab to create the cards. By combining these technologies, I created a clean and visually pleasing developer portfolio for myself which will serve me in the future as I apply to different companies. The user should be able to navigate to the link of my portfolio and have access to a snippet of who I am and all that I have accomplished so far as a developer. The code below make this happen: 
 
 <p>&nbsp;</p>
+### About.js Imports
 
-
+```js
+import React from "react";
+import "./About.css";
+import personalPhoto from "../../images/personal-photo.png";
+import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
+import Footer from "../Footer";
+```
 
 
 ## Usage
