@@ -27,7 +27,7 @@ To increase your chances of landing an interview for a software engineering or j
 
 ### Screenshot of Functioning Web Application:
 
-![App In Use](./src/images/app-functionality.png)
+![App In Use](./src/images/app-functionality2.png)
 
 
 ## Table of Contents:
@@ -62,7 +62,7 @@ import Footer from "../Footer";
 (Above: This code imports the necessary dependencies for building a React component, including the React library and the required CSS file. It also imports an image file using a relative path and defines MDB (Material Design for Bootstrap) components for later use. Finally, it imports a custom Footer component from a separate file.)
 
 ### About.js JSX and MDB
-```js
+```jsx
 function About() {
   return (
     <div className="background">
@@ -166,6 +166,7 @@ function Contact() {
 ```
 (Above: This code defines a Contact component that handles form validation and submission. The handleBlur function is triggered when the user leaves a form input field. It checks if the name, email, or message field is empty and displays an alert message accordingly. It also validates the email format using a regular expression. The handleSubmit function is triggered when the form is submitted and displays a success alert.)
 
+<p>&nbsp;</p>
 
 ### Portfolio.js Cards (JSX & MDB) 
 ```js
@@ -220,7 +221,7 @@ function Portfolio() {
  ```
  (Above: The Portfolio component displays a collection of previous projects. It imports dependencies for building card components, as well as the Footer component and a CSS file for styling. Images related to each project are also imported. The component renders a section with a background color, a heading, and a subheading. It uses card components to display each project, including an image, a title linked to the project's repository, and a description. Styling is applied using CSS classes and inline styles.)
 
-
+<p>&nbsp;</p>
 
  ### Resume.js (MDB Buttons)
  ```js
@@ -284,6 +285,7 @@ function Portfolio() {
 ```
 (Above: The Resume component renders a section that displays a resume and a list of skills. It imports dependencies from the mdb-react-ui-kit library for building the layout. The resume is displayed as an image, which can be downloaded by clicking the image. The skills section is divided into several groups, with each group containing buttons representing different skills. The component also includes the Footer component to display additional information at the bottom.)
 
+<p>&nbsp;</p>
 
 ### Header.js Image and NavTabs
 ```js
@@ -319,9 +321,7 @@ function Portfolio() {
 (Above: The Header component is responsible for rendering the navigation bar at the top of the page. It imports a portfolio logo image and the NavTabs component for navigation links. The component uses state to control the visibility of the navigation bar on smaller screens. The navigation bar is built using the mdb-react-ui-kit library, with a logo, a toggler button to show/hide the navigation links, and a collapsible section that contains the navigation links. The current page and a function to handle page changes are passed as props to the NavTabs component.)
 
 
-
-
-
+<p>&nbsp;</p>
 
 ## Usage
 
