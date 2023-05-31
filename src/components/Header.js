@@ -23,10 +23,10 @@ export default function Header({currentPage,handlePageChange}) {
   return (
     <MDBNavbar className='navbar' expand='lg' light bgColor='warning'>
       <MDBContainer fluid>
-        <img src={PortfolioLogo} 
+      <a href='https://aficrecy.github.io/PortfolioV2-react/#about'><img src={PortfolioLogo} 
         alt="not found"
         width="250px auto"
-        />
+        /></a> 
         <MDBNavbarToggler
           type='button'
           data-target='#navbarRightAlignExample'
