@@ -4,7 +4,9 @@ import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import { MDBInput } from "mdb-react-ui-kit";
 import { MDBTextArea } from "mdb-react-ui-kit";
 import { MDBBtn } from "mdb-react-ui-kit";
-
+import linkedInLogo from "../../images/linkedin.png";
+import githubLogo from "../../images/github.png";
+import mediumLogo from "../../images/medium.png";
 
 function Contact() {
   
@@ -88,7 +90,7 @@ function Contact() {
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
                 </p>
-                {/* <div className="image-icons-container text-center">
+                <div className="image-icons-container text-center">
                   <a
                     href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/"
                     target="_blank"
@@ -117,7 +119,7 @@ function Contact() {
                   >
                     <img src={githubLogo} alt="logo" className="stacked-icon" />
                   </a>
-                </div> */}
+                </div>
               </MDBCol>
             </MDBCol>
           </MDBRow>

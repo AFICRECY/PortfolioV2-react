@@ -36,7 +36,7 @@ function Portfolio() {
             />
           </a>
           <MDBCardBody className="CardBody">
-            <MDBCardTitle className='pt-4'>Cinexplorer Movie Search</MDBCardTitle>
+           <MDBCardTitle className='pt-4'>Cinexplorer Movie Search</MDBCardTitle>
             <MDBCardText>
             I am excited to tell you about the application my team and I made for movie enthusiasts. Our application is designed to provide users with an easy and efficient way to search for information about their favorite movies. This application utilizes OMDb's Movie API.
             </MDBCardText>

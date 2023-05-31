@@ -14,6 +14,8 @@ import {
   MDBDropdownToggle,
   MDBDropdownItem,
 } from 'mdb-react-ui-kit';
+
+import PortfolioLogo from '../images/PortfolioLogo.png';
 import NavTabs from './NavTabs';
 export default function Header({currentPage,handlePageChange}) {
   const [showNavRight, setShowNavRight] = useState(false);
@@ -21,6 +23,10 @@ export default function Header({currentPage,handlePageChange}) {
   return (
     <MDBNavbar className='navbar' expand='lg' light bgColor='warning'>
       <MDBContainer fluid>
+        <img src={PortfolioLogo} 
+        alt="not found"
+        width="250px auto"
+        />
         <MDBNavbarToggler
           type='button'
           data-target='#navbarRightAlignExample'
