@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBCol,MDBCardImage, MDBContainer, MDBRow, MDBBtn } from "mdb-react-ui-kit";
 import Footer from "../Footer";
 import "./Portfolio.css";
+import resumePdf from "../../images/tech-resume.pdf";
 import resumeImg from "../../images/Tech-Resume-image.png";
 
 
@@ -13,9 +14,10 @@ function Resume() {
     <MDBCol size='6'>
       <h1 className="text-center">Resume</h1>
       <a
-                    href="https://www.linkedin.com/in/afi-nkhume-crecy-932862128/"
+                    href={resumePdf}
                     target="_blank"
                     rel="noreferrer"
+                    download='Afi-resume'
                   >
                     <img
                       src={resumeImg}

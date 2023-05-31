@@ -6,6 +6,7 @@ import Resume from './components/pages/Resume';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 function App() {
 
