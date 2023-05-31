@@ -58,6 +58,7 @@ function Portfolio() {
           <MDBCardBody className="CardBody">
             <MDBCardTitle className='pt-4'>Feather Pad Text Editor</MDBCardTitle>
             <MDBCardText>
+              <a href =""></a>
             This installable digital notebook appplication serves as a modern counterpart to traditional paper notebooks, enabling users to conveniently organize their notes and information and auto save on the go.
             </MDBCardText>
           </MDBCardBody>
@@ -122,6 +123,8 @@ function Portfolio() {
           <MDBCardBody className="CardBody">
             <MDBCardTitle className='pt-4'>Daily Timeline Work Planner</MDBCardTitle>
             <MDBCardText>
+            <a href="https://github.com/AFICRECY/daily-timeline-pro">(Link to repository)</a>  
+            <br/>
             With Daily Timeline Pro, a user can save events for each hour of the day as well as insert them into easily distinguishable time blocks. Time management can be made easy, the user simply clicks into the time block they would like to add an event/task to, and click save, edit, or even delete.
             </MDBCardText>
           </MDBCardBody>

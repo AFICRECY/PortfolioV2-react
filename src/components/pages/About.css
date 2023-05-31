@@ -66,3 +66,10 @@ h2 {
     font-family: 'Comfortaa', cursive;
     font-family: 'Libre Baskerville', serif;
 }
+
+
+@media only screen and (max-width: 800px) {
+  .circle {
+    width: 100px;
+  }
+}

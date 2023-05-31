@@ -14,6 +14,9 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <About />;
+    }
     if (currentPage === 'About') {
       return <About />;
     }
