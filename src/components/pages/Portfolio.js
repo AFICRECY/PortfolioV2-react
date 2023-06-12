@@ -15,6 +15,8 @@ import hopsHavenImg from "../../images/Hops-Haven-Logo.png";
 import theBloggersDenImg from "../../images/TheBloggersDen-image.png";
 import workDayPlannerImg from "../../images/WorkDayPlanner-image.png";
 import weatherProImg from "../../images/WeatherPro-image.png";
+import clubHubImg from "../../images/Clubhub.png";
+
 
 function Portfolio() {
   return (
@@ -164,6 +166,31 @@ function Portfolio() {
             </MDBCardText>
           </MDBCardBody>
         </MDBCol>
+        <MDBCol size="4">
+          <a
+            href="https://clubhub.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <MDBCardImage
+              className="CardBody"
+              src={clubHubImg}
+              position="top"
+              alt="..."
+            />
+          </a>
+          <MDBCardBody className="CardBody">
+            <MDBCardTitle className='pt-4'>Club Hub</MDBCardTitle>
+            <MDBCardText>
+            <a href="https://github.com/tdusenbury/Club-Hub" target="_blank"
+            rel="noreferrer">(Link to repository)</a>  
+            <br/>
+            Club Hub is the ultimate destination for those seeking connection and community. Discover a vibrant world of club events, forge meaningful connections with like-minded individuals, and embark on unforgettable experiences together. Join us at Club Hub and unlock the power of connection and community.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCol>
+
+
       </MDBRow>
       <br/>
       <br/>
